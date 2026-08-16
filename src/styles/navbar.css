@@ -1,0 +1,89 @@
+.nb {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(246, 247, 251, .72);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(15, 23, 42, .06);
+}
+
+.nb-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 12px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.nb-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.nb-logo {
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+  margin-bottom: -10px; /* pulls up the bottom whitespace */
+  margin-top: -10px;    /* keeps it vertically centered */
+   animation: none !important; /* safety override */
+}
+
+.nb-name {
+  font-weight: 1000;
+  letter-spacing: .2px;
+  color: rgba(15, 23, 42, .92);
+  font-size: 16px;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.nb-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nb-link {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 13px;
+  color: rgba(15, 23, 42, .72);
+  padding: 10px 12px;
+  border-radius: 12px;
+}
+
+.nb-link:hover {
+  background: rgba(79, 70, 229, .06);
+  color: rgba(15, 23, 42, .92);
+}
+
+.nb-link.active {
+  background: rgba(79, 70, 229, .12);
+  border: 1px solid rgba(79, 70, 229, .18);
+  color: rgba(43, 47, 127, 1);
+}
+
+.nb-btn {
+  text-decoration: none;
+  border-radius: 14px;
+  padding: 10px 14px;
+  font-weight: 950;
+  font-size: 13px;
+  color: #fff;
+  background: linear-gradient(135deg, rgba(79, 70, 229, .95), rgba(99, 102, 241, .90));
+  box-shadow: 0 16px 40px rgba(79, 70, 229, .18);
+}
+
+.nb-btn:hover {
+  transform: translateY(-1px);
+}
+
+@media (max-width: 520px) {
+  .nb-link { display: none; }
+  .nb-btn { padding: 10px 12px; }
+}

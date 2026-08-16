@@ -1,7 +1,7 @@
-# SAWARI — Frontend
-
-A women-safety-first ride-sharing web application built with React.js.
+# SAWARI — Frontend.
 **SAWARI** is a **women-focused safety application** designed to provide a secure and empowering platform for women. This React-based frontend application serves as the user interface for accessing various safety features including SOS alerts, ride sharing, and community safety reporting.
+
+SAWARI was a team academic project. I mainly worked on the frontend, especially the UI, responsive components, navigation, and safety-related screens. Other team members contributed to the remaining parts."
 
 ### 🎓 Academic Context
 - **Project:** [Sawari]

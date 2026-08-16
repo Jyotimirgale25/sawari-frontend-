@@ -45,6 +45,36 @@ A women-safety-first ride-sharing web application built with React.js.
 ![Admin Verification](screenshots/admin-verification.png)
 
 ---
+## 👥 Contributors
+
+### Project Team
+
+| Name | Role | GitHub | Responsibilities |
+|------|------|--------|------------------|
+| **Jyoti Mirgale** | Frontend Developer | [@Jyotimirgale25](https://github.com/Jyotimirgale25) | React UI/UX Development, Frontend Architecture, API Integration |
+| **Aaliya005** | Backend Developer | [@Aaliya005](https://github.com/Aaliya005) | API Development, Database Design, Server Configuration |
+
+---
+
+### 👩‍💻 Frontend Developer (Jyoti Mirgale)
+- React.js component development
+- UI/UX design and implementation
+- State management (Redux/Context API)
+- API integration with backend
+- Responsive design
+- Frontend routing and navigation
+- User interface testing
+- Deployment and hosting
+
+### 👩‍💻 Backend Developer (Aaliya005)
+- RESTful API development
+- Database schema design
+- PostgreSQL/MySQL database management
+- Authentication and authorization
+- Server configuration
+- API security implementation
+- Backend testing and optimization
+- API documentation
 
 ## Features
 
